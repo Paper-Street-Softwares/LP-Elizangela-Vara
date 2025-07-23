@@ -45,6 +45,7 @@ export default function Index() {
         instagram={true}
         facebook={true}
         socialPrint={true}
+        tiktok={true}
       />
       {/* <Cta colorMode={colorMode} /> */}
       <CtaSecondary />
@@ -61,6 +62,7 @@ export default function Index() {
         addres={true}
         instagram={true}
         facebook={true}
+        tiktok={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />

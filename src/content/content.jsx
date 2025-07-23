@@ -99,6 +99,7 @@ export const infos = {
   instagramProfile: "elizangelavara", // Sem o @
   facebookProfile: "elizangela.vara",
   linkeDinProfile: "A_Definir",
+  tiktokProfile: "@elizangela.vara",
   x: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
@@ -405,6 +406,8 @@ const content = {
       labelFacebook: "Siga-me no Facebook",
       labelLinkedin: "Siga-me no LinkedIn",
       labelX: "Siga-me no X",
+      labeltiktok: "Siga-me no TikTok",
+
       paragraph: (
         <div>
           O escritório Elisângela Vara – Advogados Associados nasceu da vontade
@@ -467,6 +470,7 @@ const content = {
         labelFacebook: "Siga-me no Facebook",
         labelLinkedin: "Siga-me no LinkedIn",
         labelX: "Siga-me no X",
+        labeltiktok: "Siga-me no TikTok",
       },
     },
     cta: {
@@ -900,6 +904,7 @@ const content = {
     },
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
+      tiktok: `https://www.tiktok.com/${infos.tiktokProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
       phoneSecundario: `https://wa.me/+55${infos.phoneSecundario.ddd}${infos.phoneSecundario.firstPart}${infos.phoneSecundario.secondPart}?text=${infos.whatsappDefaultMessage}`,
       phoneTerciario: `https://wa.me/+55${infos.phoneTerciario.ddd}${infos.phoneTerciario.firstPart}${infos.phoneTerciario.secondPart}?text=${infos.whatsappDefaultMessage}`,
