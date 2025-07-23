@@ -68,9 +68,9 @@ export const infos = {
     secondPart: "1935", // Apenas os 4 últimos números
   },
   phoneTerciario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "35",
+    firstPart: "99757", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "7443", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -118,7 +118,13 @@ const content = {
         img: logo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
+      menuItems: [
+        "Início",
+        "Serviços",
+        "Sobre Nós",
+        "Perguntas Frequentes",
+        "Mapa",
+      ],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
@@ -379,10 +385,12 @@ const content = {
       },
     },
     maps: {
-      minitag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      embedsrc: "a_Definir",
+      minitag: "LOCALIZAÇÃO",
+      title: "Encontre-nos em Franca - SP",
+      subtitle:
+        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
+      embedsrc:
+        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d291.2306331420838!2d-47.3864632!3d-20.56622!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b0a8c16789d321%3A0xc0fb72d8db7a2c40!2sR.%20dos%20Jasmins%2C%20940%20-%20Chacara%20Santo%20Antonio%2C%20Franca%20-%20SP%2C%2014403-277!5e1!3m2!1spt-BR!2sbr!4v1753293201049!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
