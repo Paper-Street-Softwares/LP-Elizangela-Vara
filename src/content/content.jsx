@@ -68,9 +68,9 @@ export const infos = {
     secondPart: "1935", // Apenas os 4 últimos números
   },
   phoneTerciario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "35",
+    firstPart: "99757", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "7443", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -118,7 +118,13 @@ const content = {
         img: logo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes", "Mapa"],
+      menuItems: [
+        "Início",
+        "Serviços",
+        "Sobre Nós",
+        "Perguntas Frequentes",
+        "Mapa",
+      ],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
