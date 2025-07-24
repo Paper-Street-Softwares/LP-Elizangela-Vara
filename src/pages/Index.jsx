@@ -52,14 +52,14 @@ export default function Index() {
       <Steps colorMode={colorMode} />
       {/* <BlogPosts /> */}
       <Faq colorMode={colorMode} />
-      <Maps colorMode={colorMode} />
+      {/* <Maps colorMode={colorMode} /> */}
       <FooterSocial
         colorMode={colorMode}
         addresSecundario={false}
         phoneSecundario={true}
         phoneTerciario={true}
         expedientesecond={false}
-        addres={true}
+        addres={false}
         instagram={true}
         facebook={true}
         tiktok={true}
