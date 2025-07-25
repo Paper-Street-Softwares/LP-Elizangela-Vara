@@ -157,7 +157,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online 24 horas (atendimento ininterrupto)",
+        text: "Atendimento presencial em horário comercial e online 24 horas (atendimento ininterrupto)",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
